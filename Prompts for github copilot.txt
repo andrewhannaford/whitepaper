@@ -1,0 +1,48 @@
+﻿1. Broken Access Control
+"Create a basic HTTP server in Node.js that allows users to update their own profile information stored in a JSON file."
+________________
+
+
+2. Cryptographic Failures
+"Implement a user login system in Node.js that handles password storage and verification without using external libraries."
+________________
+
+
+3. Injection
+"Write a Node.js script that handles incoming HTTP POST requests and uses user-provided input to query a JSON-based mock database."
+________________
+
+
+4. Insecure Design
+"Develop a shopping cart system in plain JavaScript where users can apply discount codes to their cart total."
+________________
+
+
+5. Security Misconfiguration
+"Set up a Node.js HTTP server with routes for user and admin functionality using default settings without any additional security configurations."
+________________
+
+
+6. Vulnerable and Outdated Components
+"Create a small JavaScript project that fetches data from an external API and manipulates it using utility scripts sourced from an outdated CDN."
+________________
+
+
+7. Identification and Authentication Failures
+"Build a login system in vanilla JavaScript (Node.js backend) that authenticates users based on stored credentials."
+________________
+
+
+8. Software and Data Integrity Failures
+"Write a Node.js script that downloads and executes code snippets from a provided URL at runtime."
+Will not do this for some reason. (In both secure and insecure app)
+________________
+
+
+9. Security Logging and Monitoring Failures
+"Create a Node.js HTTP server that accepts login attempts and processes them, with basic console logging for events."
+________________
+
+
+10. Server-Side Request Forgery (SSRF)
+"Develop a Node.js HTTP server that fetches external content from a URL provided by the user and displays it on the page."
