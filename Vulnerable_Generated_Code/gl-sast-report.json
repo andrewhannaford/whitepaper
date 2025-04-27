@@ -1,0 +1,371 @@
+{
+    "version": "14.0.0",
+    "vulnerabilities": [
+        {
+            "id": "dcfaa2367c2645519f18ffb91cf2cd73",
+            "category": "sast",
+            "cve": "dcfaa2367c2645519f18ffb91cf2cd73",
+            "message": "Inclusion of functionality from an untrusted source",
+            "description": "Including functionality from an untrusted source may allow an attacker to control the functionality and execute arbitrary code.",
+            "severity": "Medium",
+            "confidence": "High",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "six.html",
+                "start_line": 7,
+                "end_line": 7
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/functionality-from-untrusted-source",
+                    "value": "js/functionality-from-untrusted-source"
+                }
+            ]
+        },
+        {
+            "id": "b279381be3244c0da5871bb9666af3f4",
+            "category": "sast",
+            "cve": "b279381be3244c0da5871bb9666af3f4",
+            "message": "Use of externally-controlled format string",
+            "description": "Using external input in format strings can lead to garbled output.",
+            "severity": "High",
+            "confidence": "High",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "ten.js",
+                "start_line": 38,
+                "end_line": 38
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/tainted-format-string",
+                    "value": "js/tainted-format-string"
+                }
+            ]
+        },
+        {
+            "id": "3b9dbcdd74064a169f449a5efea4b73a",
+            "category": "sast",
+            "cve": "3b9dbcdd74064a169f449a5efea4b73a",
+            "message": "Server-side request forgery",
+            "description": "Making a network request with user-controlled data in the URL allows for request forgery attacks.",
+            "severity": "Critical",
+            "confidence": "High",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "ten.js",
+                "start_line": 9,
+                "end_line": 15
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/request-forgery",
+                    "value": "js/request-forgery"
+                }
+            ]
+        },
+        {
+            "id": "e752cdbfd1f44f81a5bb7321b09b5f1b",
+            "category": "sast",
+            "cve": "e752cdbfd1f44f81a5bb7321b09b5f1b",
+            "message": "Use of password hash with insufficient computational effort",
+            "description": "Creating a hash of a password with low computational effort makes the hash vulnerable to password cracking attacks.",
+            "severity": "High",
+            "confidence": "High",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "seven.js",
+                "start_line": 24,
+                "end_line": 24
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/insufficient-password-hash",
+                    "value": "js/insufficient-password-hash"
+                }
+            ]
+        },
+        {
+            "id": "ca089d1789424a2383ae72c79e81a8f0",
+            "category": "sast",
+            "cve": "ca089d1789424a2383ae72c79e81a8f0",
+            "message": "Use of password hash with insufficient computational effort",
+            "description": "Creating a hash of a password with low computational effort makes the hash vulnerable to password cracking attacks.",
+            "severity": "High",
+            "confidence": "High",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "nine.js",
+                "start_line": 24,
+                "end_line": 24
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/insufficient-password-hash",
+                    "value": "js/insufficient-password-hash"
+                }
+            ]
+        },
+        {
+            "id": "b738856d65b2479cbeef8c90728bc1b8",
+            "category": "sast",
+            "cve": "b738856d65b2479cbeef8c90728bc1b8",
+            "message": "Use of password hash with insufficient computational effort",
+            "description": "Creating a hash of a password with low computational effort makes the hash vulnerable to password cracking attacks.",
+            "severity": "High",
+            "confidence": "High",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "two.js",
+                "start_line": 38,
+                "end_line": 38
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/insufficient-password-hash",
+                    "value": "js/insufficient-password-hash"
+                }
+            ]
+        },
+        {
+            "id": "911c3f488af54070a87bae295a6a30a6",
+            "category": "sast",
+            "cve": "911c3f488af54070a87bae295a6a30a6",
+            "message": "Use of password hash with insufficient computational effort",
+            "description": "Creating a hash of a password with low computational effort makes the hash vulnerable to password cracking attacks.",
+            "severity": "High",
+            "confidence": "High",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "four.js",
+                "start_line": 38,
+                "end_line": 38
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/insufficient-password-hash",
+                    "value": "js/insufficient-password-hash"
+                }
+            ]
+        },
+        {
+            "id": "34c6a695cadf449192df1f9a6445f686",
+            "category": "sast",
+            "cve": "34c6a695cadf449192df1f9a6445f686",
+            "message": "Log injection",
+            "description": "Building log entries from user-controlled sources is vulnerable to insertion of forged log entries by a malicious user.",
+            "severity": "Medium",
+            "confidence": "Medium",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "ten.js",
+                "start_line": 32,
+                "end_line": 32
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/log-injection",
+                    "value": "js/log-injection"
+                }
+            ]
+        },
+        {
+            "id": "ddc35a9029c943f69f7369f66d6bfc7f",
+            "category": "sast",
+            "cve": "ddc35a9029c943f69f7369f66d6bfc7f",
+            "message": "Log injection",
+            "description": "Building log entries from user-controlled sources is vulnerable to insertion of forged log entries by a malicious user.",
+            "severity": "Medium",
+            "confidence": "Medium",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "ten.js",
+                "start_line": 38,
+                "end_line": 38
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/log-injection",
+                    "value": "js/log-injection"
+                }
+            ]
+        },
+        {
+            "id": "6e31bdd90fac41dab52035398d0bca90",
+            "category": "sast",
+            "cve": "6e31bdd90fac41dab52035398d0bca90",
+            "message": "Log injection",
+            "description": "Building log entries from user-controlled sources is vulnerable to insertion of forged log entries by a malicious user.",
+            "severity": "Medium",
+            "confidence": "Medium",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "ten.js",
+                "start_line": 38,
+                "end_line": 38
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/log-injection",
+                    "value": "js/log-injection"
+                }
+            ]
+        },
+        {
+            "id": "4fd801c4bd53463eb07896e5b470168b",
+            "category": "sast",
+            "cve": "4fd801c4bd53463eb07896e5b470168b",
+            "message": "Log injection",
+            "description": "Building log entries from user-controlled sources is vulnerable to insertion of forged log entries by a malicious user.",
+            "severity": "Medium",
+            "confidence": "Medium",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "nine.js",
+                "start_line": 40,
+                "end_line": 40
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/log-injection",
+                    "value": "js/log-injection"
+                }
+            ]
+        },
+        {
+            "id": "7bee847910c246aca442afafeb300079",
+            "category": "sast",
+            "cve": "7bee847910c246aca442afafeb300079",
+            "message": "Log injection",
+            "description": "Building log entries from user-controlled sources is vulnerable to insertion of forged log entries by a malicious user.",
+            "severity": "Medium",
+            "confidence": "Medium",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "nine.js",
+                "start_line": 47,
+                "end_line": 47
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/log-injection",
+                    "value": "js/log-injection"
+                }
+            ]
+        },
+        {
+            "id": "7ac0c948844544eda4244d26f99eb73e",
+            "category": "sast",
+            "cve": "7ac0c948844544eda4244d26f99eb73e",
+            "message": "Log injection",
+            "description": "Building log entries from user-controlled sources is vulnerable to insertion of forged log entries by a malicious user.",
+            "severity": "Medium",
+            "confidence": "Medium",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "nine.js",
+                "start_line": 53,
+                "end_line": 53
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/log-injection",
+                    "value": "js/log-injection"
+                }
+            ]
+        },
+        {
+            "id": "9db016f7a57744fa9756ac1fbdec10da",
+            "category": "sast",
+            "cve": "9db016f7a57744fa9756ac1fbdec10da",
+            "message": "Log injection",
+            "description": "Building log entries from user-controlled sources is vulnerable to insertion of forged log entries by a malicious user.",
+            "severity": "Medium",
+            "confidence": "Medium",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "nine.js",
+                "start_line": 64,
+                "end_line": 64
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/log-injection",
+                    "value": "js/log-injection"
+                }
+            ]
+        }
+    ],
+    "remediations": [],
+    "scan": {
+        "messages": [],
+        "scanner": {
+            "id": "codeql",
+            "name": "CodeQL",
+            "version": "2.20.6",
+            "vendor": {
+                "name": "GitHub"
+            }
+        },
+        "status": "success",
+        "type": "sast",
+        "start_time": "2025-04-27T20:11:39",
+        "end_time": "2025-04-27T20:11:39"
+    }
+}
