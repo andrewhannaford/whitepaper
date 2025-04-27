@@ -1,0 +1,271 @@
+{
+    "version": "14.0.0",
+    "vulnerabilities": [
+        {
+            "id": "495966167ddf46eaaf67ab9a5e21f3c8",
+            "category": "sast",
+            "cve": "495966167ddf46eaaf67ab9a5e21f3c8",
+            "message": "Inclusion of functionality from an untrusted source",
+            "description": "Including functionality from an untrusted source may allow an attacker to control the functionality and execute arbitrary code.",
+            "severity": "Medium",
+            "confidence": "High",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "six.html",
+                "start_line": 7,
+                "end_line": 7
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/functionality-from-untrusted-source",
+                    "value": "js/functionality-from-untrusted-source"
+                }
+            ]
+        },
+        {
+            "id": "58427ce698a84b799f1d574002f17bf7",
+            "category": "sast",
+            "cve": "58427ce698a84b799f1d574002f17bf7",
+            "message": "Use of password hash with insufficient computational effort",
+            "description": "Creating a hash of a password with low computational effort makes the hash vulnerable to password cracking attacks.",
+            "severity": "High",
+            "confidence": "High",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "seven.js",
+                "start_line": 16,
+                "end_line": 16
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/insufficient-password-hash",
+                    "value": "js/insufficient-password-hash"
+                }
+            ]
+        },
+        {
+            "id": "2cd91207314f469c84f898184265aa24",
+            "category": "sast",
+            "cve": "2cd91207314f469c84f898184265aa24",
+            "message": "Use of password hash with insufficient computational effort",
+            "description": "Creating a hash of a password with low computational effort makes the hash vulnerable to password cracking attacks.",
+            "severity": "High",
+            "confidence": "High",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "two.js",
+                "start_line": 26,
+                "end_line": 26
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/insufficient-password-hash",
+                    "value": "js/insufficient-password-hash"
+                }
+            ]
+        },
+        {
+            "id": "c6e74d3462d24796a9f2d3c72bc2a042",
+            "category": "sast",
+            "cve": "c6e74d3462d24796a9f2d3c72bc2a042",
+            "message": "Log injection",
+            "description": "Building log entries from user-controlled sources is vulnerable to insertion of forged log entries by a malicious user.",
+            "severity": "Medium",
+            "confidence": "Medium",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "nine.js",
+                "start_line": 33,
+                "end_line": 33
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/log-injection",
+                    "value": "js/log-injection"
+                }
+            ]
+        },
+        {
+            "id": "1cc4cb8cd4794517a62f481ef10311dd",
+            "category": "sast",
+            "cve": "1cc4cb8cd4794517a62f481ef10311dd",
+            "message": "Log injection",
+            "description": "Building log entries from user-controlled sources is vulnerable to insertion of forged log entries by a malicious user.",
+            "severity": "Medium",
+            "confidence": "Medium",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "nine.js",
+                "start_line": 37,
+                "end_line": 37
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/log-injection",
+                    "value": "js/log-injection"
+                }
+            ]
+        },
+        {
+            "id": "78a0b3c4d77d433aaa54faf9da4b5179",
+            "category": "sast",
+            "cve": "78a0b3c4d77d433aaa54faf9da4b5179",
+            "message": "Log injection",
+            "description": "Building log entries from user-controlled sources is vulnerable to insertion of forged log entries by a malicious user.",
+            "severity": "Medium",
+            "confidence": "Medium",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "ten.js",
+                "start_line": 52,
+                "end_line": 52
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/log-injection",
+                    "value": "js/log-injection"
+                }
+            ]
+        },
+        {
+            "id": "f19400041d68471082a9c7c8024347e2",
+            "category": "sast",
+            "cve": "f19400041d68471082a9c7c8024347e2",
+            "message": "Potential file system race condition",
+            "description": "Separately checking the state of a file before operating on it may allow an attacker to modify the file between the two operations.",
+            "severity": "High",
+            "confidence": "Medium",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "one.js",
+                "start_line": 10,
+                "end_line": 10
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/file-system-race",
+                    "value": "js/file-system-race"
+                }
+            ]
+        },
+        {
+            "id": "629504b8f5b84c9eac061111553e037c",
+            "category": "sast",
+            "cve": "629504b8f5b84c9eac061111553e037c",
+            "message": "Potential file system race condition",
+            "description": "Separately checking the state of a file before operating on it may allow an attacker to modify the file between the two operations.",
+            "severity": "High",
+            "confidence": "Medium",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "three.js",
+                "start_line": 10,
+                "end_line": 10
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/file-system-race",
+                    "value": "js/file-system-race"
+                }
+            ]
+        },
+        {
+            "id": "8670b694aa7d42a4aefff1eefe398dfd",
+            "category": "sast",
+            "cve": "8670b694aa7d42a4aefff1eefe398dfd",
+            "message": "Potential file system race condition",
+            "description": "Separately checking the state of a file before operating on it may allow an attacker to modify the file between the two operations.",
+            "severity": "High",
+            "confidence": "Medium",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "seven.js",
+                "start_line": 11,
+                "end_line": 11
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/file-system-race",
+                    "value": "js/file-system-race"
+                }
+            ]
+        },
+        {
+            "id": "b62913ab1b3f4c6187260b1ea27a701f",
+            "category": "sast",
+            "cve": "b62913ab1b3f4c6187260b1ea27a701f",
+            "message": "Potential file system race condition",
+            "description": "Separately checking the state of a file before operating on it may allow an attacker to modify the file between the two operations.",
+            "severity": "High",
+            "confidence": "Medium",
+            "scanner": {
+                "id": "codeql",
+                "name": "CodeQL"
+            },
+            "location": {
+                "file": "two.js",
+                "start_line": 11,
+                "end_line": 11
+            },
+            "identifiers": [
+                {
+                    "type": "codeql_query_id",
+                    "name": "js/file-system-race",
+                    "value": "js/file-system-race"
+                }
+            ]
+        }
+    ],
+    "remediations": [],
+    "scan": {
+        "messages": [],
+        "scanner": {
+            "id": "codeql",
+            "name": "CodeQL",
+            "version": "2.20.6",
+            "vendor": {
+                "name": "GitHub"
+            }
+        },
+        "status": "success",
+        "type": "sast",
+        "start_time": "2025-04-27T20:48:22",
+        "end_time": "2025-04-27T20:48:22"
+    }
+}
